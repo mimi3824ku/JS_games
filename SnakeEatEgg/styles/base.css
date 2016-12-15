@@ -1,0 +1,62 @@
+#container-snakeGame{
+    width: 600px;
+    margin: 0 auto;
+}
+#header-snake{
+    text-align: left;
+}
+#header-snake h1{
+    color: #333;
+    font: 900 2em "Microsoft YaHei","MicrosoftJhengHei",serif;
+}
+#header-snake h1,#header-snake span,#header-snake i{
+    display: inline-block;
+}
+#header-snake span{
+    margin-left: 50px;
+    color: cadetblue;
+    font: italic 1.6em 'Arial',sans-serif;
+}
+#header-snake i{
+    color: orangered;
+    font-size: 1.8em;
+}
+#main-snake input[type='button']{
+    border: 2px solid lightcoral;
+    background: lemonchiffon;
+    border-radius: 10%;
+    outline: 0;
+    cursor: pointer;
+    font: bolder 0.9em "Microsoft YaHei",'MicrosoftJhengHei',serif;
+    box-shadow: 2px 2px 2px #ccc;
+    padding: 3px 7px;
+    margin-bottom: 10px;
+}
+#main-snake #map{
+    border: 2px solid lightcoral;
+    background: lemonchiffon;
+}
+.row{
+    height: 20px;
+}
+.row:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.col{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.activeSnake{
+    background: darkturquoise;
+}
+.egg{
+    background: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%/68% 68% 30% 30%;
+}
